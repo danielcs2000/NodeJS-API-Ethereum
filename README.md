@@ -36,13 +36,22 @@ ganache-cli
 
 #### Compile and Migrate Smart Contract
 
+Compile the contract
+
 ```bash
 truffle compile
 ```
 
+Deploy the contract
+
 ```bash
 truffle migrate
 ```
+
+![image](https://user-images.githubusercontent.com/34191864/227470630-59a9c65a-a3aa-4cae-83a7-a2e97f4bdcbc.png)
+
+
+Copy the value of the `contract address` displayed in console after deploy the contract (as shown in image above) and update the value of the variable `contractAddress` in [line 5](https://github.com/danielcs2000/NodeJS-API-Ethereum/blob/cb84f78a761a8aee4a7f24cf88e337a3f6fbd6d7/app.js#L5) of app.js
 
 #### Run express server
 
